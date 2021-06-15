@@ -1,0 +1,27 @@
+.blogpost-img-container {
+	padding: 0 50px 40px;
+	display: flex;
+}
+
+.blogpost-img-container img {
+	border: 1px solid gray;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.blogpost-main-container {
+	padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+	border-bottom: 1px solid #cdd2da;
+	padding-bottom: 20px;
+}
+
+.blogpost-main-container article h1 {
+	font-size: 35px;
+}
+
+.blogpost-main-container p {
+	text-align: justify;
+}

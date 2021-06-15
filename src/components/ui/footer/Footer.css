@@ -1,0 +1,25 @@
+/* Footer */
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #151515;
+	border-top: 25px solid lightseagreen;
+	text-align: center;
+}
+
+footer p {
+	color: white;
+	margin-top: 30px;
+	font-weight: 500;
+}
+
+.flaticon,
+.flaticon a {
+	color: white;
+	font-size: 10px;
+}
+
+.flaticon a {
+	font-size: 12px;
+	font-weight: 700;
+}

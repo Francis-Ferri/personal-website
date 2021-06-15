@@ -1,0 +1,85 @@
+.Home-body {
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+.Home-main {
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	height: 100%;
+	background-image: url("../../assets/img/Cover.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Home-main section {
+	display: grid;
+	grid-column: 2;
+	justify-items: center;
+	height: 350px;
+	margin-top: 80px;
+}
+
+.Home-main-text {
+	/* font-family: "Roboto Mono", monospace; */
+	font-size: 35px;
+	font-weight: 700;
+	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
+		1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+	letter-spacing: 5px;
+	color: black;
+	text-align: center;
+	color: white;
+	animation: Appear 1s linear;
+}
+
+.Home-main-button {
+	width: 130px;
+	height: 50px;
+	background-color: #ebba16;
+	display: grid;
+	align-items: center;
+	border-radius: 10px;
+	border: 3px solid white;
+	transition: 0.3s;
+	opacity: 1;
+	animation-duration: 3s;
+	animation-name: Appear;
+	color: white;
+}
+
+.Home-main-button:hover {
+	background-color: white;
+	transform: scale(1.1, 1.1);
+}
+
+.Home-main-button a {
+	display: block;
+	height: 100%;
+	line-height: 43px;
+	width: 100%;
+	font-weight: 700;
+	margin: auto;
+	font-size: 15px;
+	color: white;
+}
+
+.Home-main-button a:hover {
+	color: black;
+}
+
+@keyframes Appear {
+	0% {
+		opacity: 0;
+		/* transform: translateY(+200%); */
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		/* transform: translateY(0%); */
+	}
+}

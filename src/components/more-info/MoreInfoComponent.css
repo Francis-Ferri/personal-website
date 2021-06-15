@@ -1,0 +1,70 @@
+.contact-main-container {
+	width: 100%;
+	min-height: 220px;
+	background-color: #cccccc;
+	text-align: center;
+}
+
+.contact-main-container div {
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+}
+
+.contact-main-container .contact-left,
+.contact-main-container .contact-right {
+	margin-left: 20px;
+	text-align: initial;
+	margin-top: 70px;
+}
+
+.contact-main-container img {
+	width: 100px;
+}
+.contact-main-container p {
+	text-align: justify;
+}
+.contact-main-container a img {
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.contact-main-container a img:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.contact-right a,
+.contact-left a {
+	display: block;
+	font-size: 1.17em;
+	font-weight: bold;
+	text-decoration: none;
+	color: lightseagreen;
+}
+
+.contact-right a:hover,
+.contact-left a:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+	.contact-main-container {
+		min-height: 0;
+	}
+	.contact-left {
+	}
+	.contact-rigth {
+		margin-top: 20px;
+	}
+	.contact-main-container > div {
+		width: 100%;
+	}
+
+	.contact-main-container .contact-left {
+		margin-top: 50px;
+	}
+	.contact-main-container .contact-right {
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+}

@@ -1,0 +1,139 @@
+header {
+	display: grid;
+	width: 100%;
+	height: 140px;
+	grid-template-rows: repeat(2, 1fr);
+}
+
+header .Navbar-icons-container {
+	width: 100%;
+	height: 50px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background-color: #222222;
+}
+
+header .Navbar-icons-container .icons {
+	width: 125px;
+	height: auto;
+	display: flex;
+	justify-items: flex-end;
+	align-items: center;
+	justify-content: space-between;
+	justify-self: end;
+	margin-right: 30px;
+}
+
+header .icons span {
+	color: white;
+	transition: all 0.3s;
+	margin: 0px auto;
+}
+
+header .icons span:hover {
+	color: lightseagreen;
+}
+
+header .icons a {
+	margin: 0px auto;
+	transition: all 0.3s;
+}
+
+header .icons a:hover {
+	transform: scale(1.1, 1.1);
+}
+
+header .owner {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+header .owner a {
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	transition: all 0.3s;
+}
+
+header .owner a:hover {
+	color: yellowgreen;
+	transform: scale(1.1, 1.1);
+}
+
+nav {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	height: 90px;
+}
+
+nav .nav-logo-container {
+	margin-left: 45px;
+	display: flex;
+	align-items: center;
+	justify-items: flex-start;
+}
+
+nav .nav-logo-container img {
+	width: 150px;
+	transition: all 0.3s;
+}
+
+nav .nav-logo-container img:hover {
+	transform: scale(1.2, 1.2);
+}
+
+nav .profile-link {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 40px;
+}
+
+nav .profile-link .topic {
+	margin-left: 3px;
+	padding: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+	background-color: #ebba16;
+	color: black;
+	font-weight: 700;
+	overflow: hidden;
+	transition: 0.3s;
+}
+
+nav .profile-link .topic:hover {
+	background-color: black;
+	color: white;
+}
+/* #262626 */
+
+@media (max-width: 600px) {
+	nav .nav-logo-container {
+		margin-left: 15px;
+	}
+	nav .nav-logo-container img {
+		width: 120px;
+	}
+	header .owner a {
+		font-size: 20px;
+	}
+	header .owner {
+		margin-left: 15px;
+	}
+
+	header .Navbar-icons-container .icons {
+		margin-right: 15px;
+	}
+
+	nav .profile-link {
+		margin-right: 20px;
+	}
+
+	nav .profile-link .topic {
+		font-size: 12px;
+		margin-left: 5px;
+		padding: 10px;
+	}
+}

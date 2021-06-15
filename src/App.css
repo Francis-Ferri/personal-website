@@ -1,0 +1,13 @@
+.grid-container {
+	max-width: 980px;
+	margin: auto;
+}
+
+.error-screen {
+	display: flex;
+	justify-content: center;
+}
+
+.error-screen i {
+	color: lightseagreen;
+}
