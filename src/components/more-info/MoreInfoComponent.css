@@ -47,6 +47,14 @@
 	text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+	.contact-main-container .contact-left,
+	.contact-main-container .contact-right {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+}
+
 @media (max-width: 600px) {
 	.contact-main-container {
 		min-height: 0;
