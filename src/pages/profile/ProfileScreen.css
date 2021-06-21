@@ -87,4 +87,8 @@
 	.experience-main-container {
 		display: block;
 	}
+
+	.job-container {
+		margin-bottom: 50px;
+	}
 }

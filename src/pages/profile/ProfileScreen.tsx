@@ -63,7 +63,7 @@ export const ProfileScreen = () => {
 							</p>
 						</article>
 						<article className="job-container">
-							<h4>Computer Science student</h4>
+							<h4>Computer Science student (EPN)</h4>
 							<img src="./assets/img/sistemas-epn.png" alt="cosa3" />
 							<p>
 								I am an Ecuadorian university student finishing his thesis,
