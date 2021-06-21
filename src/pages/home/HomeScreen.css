@@ -23,31 +23,30 @@
 }
 
 .Home-main-text {
-	/* font-family: "Roboto Mono", monospace; */
 	font-size: 35px;
 	font-weight: 700;
+	text-align: center;
 	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
 		1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 	letter-spacing: 5px;
-	color: black;
-	text-align: center;
 	color: white;
 	animation: Appear 1s linear;
+	text-transform: uppercase;
 }
 
 .Home-main-button {
+	display: grid;
 	width: 130px;
 	height: 50px;
-	background-color: #ebba16;
-	display: grid;
-	align-items: center;
-	border-radius: 10px;
 	border: 3px solid white;
-	transition: 0.3s;
+	border-radius: 10px;
+	color: white;
+	background-color: #ebba16;
+	align-items: center;
 	opacity: 1;
+	transition: 0.3s;
 	animation-duration: 3s;
 	animation-name: Appear;
-	color: white;
 }
 
 .Home-main-button:hover {
@@ -60,10 +59,11 @@
 	height: 100%;
 	line-height: 43px;
 	width: 100%;
-	font-weight: 700;
 	margin: auto;
 	font-size: 15px;
 	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .Home-main-button a:hover {
@@ -73,13 +73,17 @@
 @keyframes Appear {
 	0% {
 		opacity: 0;
-		/* transform: translateY(+200%); */
 	}
 	50% {
 		opacity: 0;
 	}
 	100% {
 		opacity: 1;
-		/* transform: translateY(0%); */
+	}
+}
+
+@media (max-width: 600px) {
+	.Home-main section {
+		margin-top: 30px;
 	}
 }

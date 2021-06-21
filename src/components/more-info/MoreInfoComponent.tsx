@@ -2,7 +2,7 @@ import "./MoreInfoComponent.css";
 
 export const MoreInfoComponent = () => {
 	return (
-		<section className="contact-main-container">
+		<section className="projects-main-container">
 			<div>
 				<a
 					target="_blank"
@@ -11,7 +11,7 @@ export const MoreInfoComponent = () => {
 				>
 					<img src="/assets/svg/google-cloud.svg" alt="Google Cloud Platform" />
 				</a>
-				<div className="contact-left">
+				<div className="projects-left">
 					<a
 						target="_blank"
 						href="https://console.cloud.google.com/home/dashboard?project=francis-projects"
@@ -30,7 +30,7 @@ export const MoreInfoComponent = () => {
 				>
 					<img src="/assets/svg/github.svg" alt="GitHub" />
 				</a>
-				<div className="contact-right">
+				<div className="projects-right">
 					<a
 						target="_blank"
 						href="https://github.com/Francis-Ferri"

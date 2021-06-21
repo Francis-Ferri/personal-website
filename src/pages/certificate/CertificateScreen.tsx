@@ -39,7 +39,7 @@ export const CertificateScreen = () => {
 		</div>
 	) : (
 		<div className="animate__animated animate__fadeIn">
-			<section className="blogpost-main-container">
+			<section className="certificate-main-container">
 				<div className="grid-container">
 					<h3>Certificate</h3>
 					<article>
@@ -48,7 +48,7 @@ export const CertificateScreen = () => {
 					</article>
 				</div>
 			</section>
-			<section className="grid-container blogpost-img-container">
+			<section className="grid-container certificate-img-container">
 				<img src={cert.url} alt={cert.title} />
 			</section>
 			<MoreInfoComponent />

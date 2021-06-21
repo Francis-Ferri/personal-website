@@ -21,22 +21,22 @@ export const ProfileScreen = () => {
 							My name is Francis Ferri. Among my main interests are Cloud
 							Computing and Artificial intelligence. I have knowledge of DevOps,
 							Scrum, Web Development (MERN), Machine Learning and more.
-							Currently I am looking to work on a project in which I can apply
-							most of my knowledge to reinforce it, so that in the future I will
-							have the necessary skills to start my own startup. I am Ecuadorian
-							and I am 23 years old. I am a student of Computer Science in
-							Escuela Politécnica Nacional. I am currently finishing my thesis
-							about Gesture Recognition with Deep Learning and improving my
-							knowledge in my free time.
+							Currently I am looking to work on a job in which I can apply most
+							of my knowledge to reinforce it, so that in the future I will have
+							the necessary skills to start my own startup. I am Ecuadorian and
+							I am 23 years old. I am a student of Computer Science in Escuela
+							Politécnica Nacional. I am currently finishing my thesis about
+							Gesture Recognition with Deep Learning and improving my knowledge
+							in my free time.
 						</p>
 					</div>
 				</div>
 			</section>
-			<section className="profile-main-projects">
+			<section className="profile-main-experience">
 				<div className="grid-container">
 					<h3>Experience</h3>
-					<div className="projects-main-container">
-						<article className="project-container">
+					<div className="experience-main-container">
+						<article className="job-container">
 							<h4>Laboratory assistant in Lab-FIS</h4>
 
 							<img src="./assets/img/Lab-FIS.png" alt="cosa2" />
@@ -49,7 +49,7 @@ export const ProfileScreen = () => {
 								configure web servers and Data Science tools.
 							</p>
 						</article>
-						<article className="project-container">
+						<article className="job-container">
 							<h4>Assistant in Alan Turing AI Lab</h4>
 							<img src="./assets/img/Lab-Alan-Turing.jpg" alt="cosa1" />
 							<p>
@@ -62,7 +62,7 @@ export const ProfileScreen = () => {
 								the process.
 							</p>
 						</article>
-						<article className="project-container">
+						<article className="job-container">
 							<h4>Computer Science student</h4>
 							<img src="./assets/img/sistemas-epn.png" alt="cosa3" />
 							<p>

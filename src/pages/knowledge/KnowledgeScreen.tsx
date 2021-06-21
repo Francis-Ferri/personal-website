@@ -39,39 +39,33 @@ export const KnowledgeScreen = () => {
 
 	return (
 		<div className="animate__animated animate__fadeIn">
-			<main className="blogs-main">
-				<section className="blogs-news-container">
-					<div className="blogs-main-new">
+			<main className="certs-main">
+				<section className="certs-new-container">
+					<div className="certs-main-new">
 						<h2>Certificates and knowledge</h2>
-						<div className="blogs-news-img-container">
+						<div className="certs-new-img-container">
 							<img src={mainCert.url} alt={mainCert.title} />
 						</div>
-						<div className="blogs-news-info-container">
+						<div className="certs-new-info-container">
 							<h2>{mainCert.title}</h2>
 							<p>{mainCert.description}</p>
-							<Link
-								to={"./certificate/" + mainCert.id}
-								className="blogs-button"
-							>
+							<Link to={"./certificate/" + mainCert.id} className="cert-button">
 								Wide view
 							</Link>
 						</div>
 					</div>
 				</section>
 
-				<section className="blogs-posts-container">
+				<section className="certs-container">
 					<div className="grid-container">
 						<h3>Featured Certificates</h3>
 						{certs.map((cert) => (
-							<article key={cert.id} className="post-container">
+							<article key={cert.id} className="cert-container">
 								<img src={cert.url} alt={cert.title} />
 								<div className="cert-info">
 									<h4>{cert.title}</h4>
 									<p>{cert.description}</p>
-									<Link
-										to={"./certificate/" + cert.id}
-										className="blogs-button"
-									>
+									<Link to={"./certificate/" + cert.id} className="cert-button">
 										Wide view
 									</Link>
 								</div>

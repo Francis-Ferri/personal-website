@@ -1,40 +1,40 @@
-.contact-main-container {
+.projects-main-container {
 	width: 100%;
 	min-height: 220px;
 	background-color: #cccccc;
 	text-align: center;
 }
 
-.contact-main-container div {
+.projects-main-container div {
 	display: inline-block;
 	width: 45%;
 	height: 100%;
 }
 
-.contact-main-container .contact-left,
-.contact-main-container .contact-right {
+.projects-left,
+.projects-right {
 	margin-left: 20px;
 	text-align: initial;
 	margin-top: 70px;
 }
 
-.contact-main-container img {
+.projects-main-container img {
 	width: 100px;
 }
-.contact-main-container p {
+.projects-main-container p {
 	text-align: justify;
 }
-.contact-main-container a img {
+.projects-main-container a img {
 	cursor: pointer;
 	transition: all 0.3s;
 }
 
-.contact-main-container a img:hover {
+.projects-main-container a img:hover {
 	transform: scale(1.1, 1.1);
 }
 
-.contact-right a,
-.contact-left a {
+.projects-right a,
+.projects-left a {
 	display: block;
 	font-size: 1.17em;
 	font-weight: bold;
@@ -42,37 +42,42 @@
 	color: lightseagreen;
 }
 
-.contact-right a:hover,
-.contact-left a:hover {
+.projects-right a:hover,
+.projects-left a:hover {
 	text-decoration: underline;
 }
 
-@media (max-width: 900px) {
-	.contact-main-container .contact-left,
-	.contact-main-container .contact-right {
+@media (max-width: 1060px) {
+	.projects-main-container {
+		min-height: 100px;
+	}
+
+	.projects-left,
+	.projects-right {
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
 }
 
 @media (max-width: 600px) {
-	.contact-main-container {
+	.projects-main-container {
 		min-height: 0;
 	}
-	.contact-left {
-	}
-	.contact-rigth {
+
+	.projects-rigth {
 		margin-top: 20px;
 	}
-	.contact-main-container > div {
+
+	.projects-main-container > div {
 		width: 100%;
 	}
 
-	.contact-main-container .contact-left {
+	.projects-left {
 		margin-top: 50px;
 	}
-	.contact-main-container .contact-right {
-		margin-top: 10px;
+
+	.projects-right {
+		margin-top: 0px;
 		margin-bottom: 40px;
 	}
 }
